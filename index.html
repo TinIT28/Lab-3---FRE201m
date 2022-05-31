@@ -155,13 +155,17 @@
                             <dd class="col-12 col-md-3">Section</dd>
                             <dd class="col-12 col-md-9">
                                 <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                    <label class="btn btn-success active">
-                                        <input type="radio" name="options" id="non-smoking" autocomplete="off" checked>
-                                        Non-smoking
-                                    </label>
-                                    <label class="btn btn-danger">
-                                        <input type="radio" name="options" id="smoking" autocomplete="off"> Smoking
-                                    </label>
+                                    <div class="form-check">
+                                        <label class="btn btn-success active">
+                                            <input type="radio" name="options" id="non-smoking" autocomplete="off" checked>
+                                            Non-smoking
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="btn btn-danger">
+                                            <input type="radio" name="options" id="smoking" autocomplete="off"> Smoking
+                                        </label>
+                                    </div>
                                 </div>
                             </dd>
                             <dd class="col-12 col-md-3">Date and Time</dd>
@@ -259,6 +263,7 @@
     </div>
     <!-- End carousel -->
 
+    <!-- Start content -->
     <div class="container">
         <div class="row row-content align-items-center">
             <!-- Replaced flex-first and flex-last with order-1 and order-2 in beta 2" -->
